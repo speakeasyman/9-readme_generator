@@ -39,7 +39,7 @@ const promptUser = () => {
             name: 'license',
             message: 'What kind of license for our project',
             type: 'list',
-            choices: ['The Unlicense', 'Mit License', 'Mozilla Public License' ],
+            choices: ['Unlicense', 'Mit', 'MPL' ],
         },
         {
             type: 'input',
@@ -51,13 +51,14 @@ const promptUser = () => {
             name: 'email',
             message: 'What is your email?',
         },
-    ])
+    ]);   
     };
+    
 
     const generateReadMe = (answers) => 
-`
-badge goes here
-        
+`# ${answers.title}
+
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)]        
         
 ## 1.0 Description:
 
