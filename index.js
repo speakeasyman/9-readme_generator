@@ -56,7 +56,7 @@ const promptUser = () => {
     
 
     const generateReadMe = (answers) => 
-`# ${answers.title}
+`### ${answers.title}
 
 [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)]        
         
@@ -112,7 +112,7 @@ ${answers.license}`;
 
 const init = () => {
     promptUser()
-      .then((answers) => writeFileAsync('testReadMe.md', generateReadMe(answers)))
+      .then((answers) => writeFileAsync('sampleReadMe.md', generateReadMe(answers)))
       .then(() => console.log('It finished running'))
       .catch((err) => console.error(err));
   };
