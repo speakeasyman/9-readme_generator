@@ -1,3 +1,6 @@
+<!-- I left this here if you want to look at it, it is just my thought process plotting out my readme. I had to add spaces when I first tried to generate for formating reasons -->
+
+
 badge goes here
 ## 1.0 Description:
 - This is a readme generator
