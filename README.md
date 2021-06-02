@@ -36,6 +36,7 @@ The Readme generator which is the 3rd week homework assignment
 
 6.0 In use:
 
-    Here is a image of my recorded inputs. <br>
+    Here is a image of my recorded inputs.
+    
 
 ![Readme_Generator](./img/image.PNG)
