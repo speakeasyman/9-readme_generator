@@ -1,8 +1,11 @@
+// loading the inquirer, fs, and util
 const inquirer = require('inquirer');
 const fs = require("fs");
 const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
 
+
+// These are the prompts inquirer will use to get the information for the readme
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -54,7 +57,7 @@ const promptUser = () => {
     ]);   
     };
     
-
+// This is the fucntion that will generate the readmefile. It is set to generate a sampleReadMe.md file, you can edit that if you don't want it to be like that.
     const generateReadMe = (answers) => 
 `### ${answers.title}
 
@@ -109,7 +112,7 @@ const promptUser = () => {
 ${answers.license}`;
     
         
-
+//this makes it a promise.
 const init = () => {
     promptUser()
       .then((answers) => writeFileAsync('sampleReadMe.md', generateReadMe(answers)))
