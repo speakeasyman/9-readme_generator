@@ -25,6 +25,9 @@ The Readme generator which is the 3rd week homework assignment
     The Demo video is in a subset folder: 
     https://github.com/speakeasyman/9-readme_generator/tree/main/demo%20video
 
+    or on my google drive here:
+    https://drive.google.com/file/d/1X7xFTH3_LaCSzgAO0qnWPpnhpecwwL8M/view
+
     A sample readme is in a subset folder: 
     https://github.com/speakeasyman/9-readme_generator/tree/main/sample%20Readme
 
@@ -37,6 +40,6 @@ The Readme generator which is the 3rd week homework assignment
 6.0 In use:
 
     Here is a image of my recorded inputs.
-    
+
 
 ![Readme_Generator](./img/image.PNG)
