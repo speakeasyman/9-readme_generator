@@ -4,7 +4,7 @@
         
 ## 1.0 Description:
 
-- This is tribute, for we could not remember the greatest song in the world. We did defeat a shiny demon in the middle of the road. We are but men, rock!
+- We could not remember the best song in the world, but this is a tribute. We did however, defeat a demon in the middle of the road
 
 
 ## 2.0 Table of Contents:
@@ -21,22 +21,22 @@
         
 ## 3.0 Installation Instructions
 
-- Git clone, you'll need npm inquirer. ALso, you do not need to install the rock, but feel it in your heart.
+- You don't need to install rock, the rock is within you. ALso, npm i inquirer is needed
 
 
 ## 4.0 Usage Information
 
-- In the land of fallen, where the water meet the sand, you'll form the most awesome band. Also, generate some readmes, maybe serious ones
+- Use it however you wish, just rock on
 
 
 ## 5.0 Contribution Guidelines
 
-- However you want, just rock out.
+- Add whatever you want, it does not matter
 
 
 ## 6.0 Test Instructions
 
-- YOu do not test the metal. Punk rock tried to test the metal and it failed and was stricken to the ground.
+- Do not test the metal. Punk rock once tried to test the metal, but it failed and was thrown to the ground.
 
 
 ## 7.0 Questions:
